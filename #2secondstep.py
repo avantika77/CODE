@@ -62,6 +62,36 @@ def  main():
 # else:
 #      print("Dividing", a, "by", n)
 #      print(int(a) / int(n))
+
+#condition:elif
+# def main():
+#     a=input('First number: ')
+#     b=input('Second number: ')
+# if a==b:
+#     print("they are equal")
+# elif int(a) < int (b):
+#     print(a + "is smaller than b" + b)
+# else:
+#     print(a + "is biggger than b" + b)
+#     main()
+    
+#ternary operator    
+x = 3
+answer = 'positive' if x > 0 else 'negative'
+print(answer) 
+
+#script that will ask for the sides of a rectangular and print out the area.
+def main():
+    length = int(input('Length: '))
+    width = int(input('Width: '))
+    if length<=0:
+        print ("width not positive")
+        return
+    area =length*width
+    print ("the area is", area)
+    main() 
+    
+    #calculator
 # main()
  def main():
      a = input("Number: ")
