@@ -63,7 +63,14 @@ def  main():
 #      print("Dividing", a, "by", n)
 #      print(int(a) / int(n))
 # main()
-
+ def main():
+     a = input("Number: ")
+    b = input("Number: ")
+    op = input("Operator (+-*/): ")
+    command = a + op + b
+    print(command)
+    res = eval(command)
+    print(res)
 
 
 
