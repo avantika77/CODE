@@ -69,7 +69,24 @@ print(x)
 '''Using the random module the computer “thinks” about a whole number between 1 and 20.
 The user has to guess the number. After the user types in the guess the computer tells if this was bigger or smaller than the number it generated, or if was the same.
 The game ends after just one guess'''
+import random
+hidden = random.randrange(1,20)
+print ("the hidden values is ", hidden)
+user_input=input ("please enter your guess=")
+guess=int(user_input)
+if guess==hidden:
+    print("hit!")
+elif guess < hidden :
+    print ("your guess is too low")
+else:
+    print("your guess is too high")
+    
 
+#Write a script that will pick 3 fruits from a list of fruits like the one we had in one of the earlier slides. Print the 3 names.
+import random 
+fruits =["apple", "orange", "peach","papaya"]
+salad=random.sample(fruits,3)
+print(salad)
 
 
 
