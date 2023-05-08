@@ -28,9 +28,8 @@ learners"""
 print(len(text))
 
 #string repetiton and concatation
-line="hello learner"
-hw=len(line)
-print(hw)
-text= """helllo
-world"""
-print(len(text))
+name = 2 * 'Jar '
+print(name)          
+full_name = name + 'Binks'
+print(full_name)  
+
