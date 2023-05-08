@@ -32,4 +32,6 @@ name = 2 * 'Jar '
 print(name)          
 full_name = name + 'Binks'
 print(full_name)  
-
+title = "We have some title"
+print(title)
+print('-' * len(title))
