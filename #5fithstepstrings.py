@@ -27,3 +27,10 @@ text="""hello
 learners"""
 print(len(text))
 
+#string repetiton and concatation
+line="hello learner"
+hw=len(line)
+print(hw)
+text= """helllo
+world"""
+print(len(text))
