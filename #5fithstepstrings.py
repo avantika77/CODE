@@ -35,3 +35,12 @@ print(full_name)
 title = "We have some title"
 print(title)
 print('-' * len(title))
+
+#A character in a string
+text = "Hello World" 
+a = text[0]
+print(a)      
+b = text[6]
+print(b)   
+
+
