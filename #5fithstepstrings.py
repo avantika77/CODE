@@ -60,6 +60,13 @@ text[2] = 'Y'
 print("done")
 print(text)
 
+#how to change a string
+text = "abcd"
+print(text)      
+text = text[:2] + 'Y' + text[3:]
+print(text)      
+
+
 
 
 
