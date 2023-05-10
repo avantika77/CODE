@@ -53,4 +53,14 @@ start = 1
 end = 4
 print(text[start:end])
 
+#Python strings are “immutable”, meaning you cannot change them You can replace a whole string in a variable, but you cannot change it.
+text = "abcd"
+print(text)    
+text[2] = 'Y'
+print("done")
+print(text)
+
+
+
+
 
