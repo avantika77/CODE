@@ -66,7 +66,16 @@ print(text)
 text = text[:2] + 'Y' + text[3:]
 print(text)      
 
-
+#String copy
+text = "abcd"
+print(text)     
+text = text + "ef"
+print(text)    
+other = text
+print(other)     
+text = "xyz"
+print(text)     
+print(other)    
 
 
 
