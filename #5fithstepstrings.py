@@ -75,7 +75,15 @@ other = text
 print(other)     
 text = "xyz"
 print(text)     
-print(other)    
+print(other)   
+
+#String functions and methods (len, upper, lower)
+a = "xYz"
+print(len(a))     
+b = a.upper()
+print(b)          
+print(a)          
+print(a.lower())
 
 
 
