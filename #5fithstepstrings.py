@@ -91,5 +91,13 @@ print(text.index("bl"))
 print(text.index("The"))    
 #print(text.index("dog"))
 
+#index in string with range
+text = "The black cat climbed the green tree."
+print(text.index("c"))     
+print(text.index("c", 8))   
+print(text.index("gr", 8))      
+#print(text.index("gr", 8, 16))
+
+
 
 
