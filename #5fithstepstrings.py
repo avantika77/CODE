@@ -85,6 +85,11 @@ print(b)
 print(a)          
 print(a.lower())
 
+#index in string
+text = "The black cat climbed the green tree."
+print(text.index("bl"))    
+print(text.index("The"))    
+#print(text.index("dog"))
 
 
 
