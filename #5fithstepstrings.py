@@ -98,6 +98,18 @@ print(text.index("c", 8))
 print(text.index("gr", 8))      
 #print(text.index("gr", 8, 16))
 
+#find in string
+#Alternatively use find and rfind that will return -1 instead of raising an exception.
+text = "The black cat climbed the green tree."
+print(text.find("bl"))    
+print(text.find("The"))   
+print(text.find("dog"))    
+print(text.find("c"))     
+print(text.find("c", 8))  
+print(text.find("gr", 8))      
+print(text.find("gr", 8, 16))  
+print(text.rfind("c", 8))   
+
 
 
 
