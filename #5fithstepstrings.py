@@ -110,6 +110,15 @@ print(text.find("gr", 8))
 print(text.find("gr", 8, 16))  
 print(text.rfind("c", 8))   
 
+#in string
+txt = "hello world"
+if "wo" in txt:
+ print('found wo')
+if "x" in txt:
+  print("found x")
+else:
+    print("NOT found x")
+
 
 
 
