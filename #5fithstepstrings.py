@@ -140,6 +140,18 @@ txt="the black cat climes the green tree"
     print( ord ("o"))
     print( ord ("#"))
     
+#ord in a life
+#import sys
+#filename=sys.argv[1]
+#with open (filename) as fh:
+ #for c in content:
+  #print (ord (c))
+  
+#char number to charcter
+for i in range (23,125):
+  print(i,chr(i))
+  
+#one string in another string 
     
     
     
