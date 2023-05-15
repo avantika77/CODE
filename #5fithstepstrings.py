@@ -118,6 +118,17 @@ if "x" in txt:
   print("found x")
 else:
     print("NOT found x")
+    
+    #index if in string
+    sub ="cat"
+    txt="the black cat climes the green tree"
+    if sub in txt:
+      loc=txt.index(sub)
+      print(sub+"is at " +str(loc))
+    sub="dog"
+    if sub in txt :
+      loc =txt .index(sub)
+    print(sub+"is at " +str(loc))
 
 
 
