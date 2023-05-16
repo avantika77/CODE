@@ -13,3 +13,18 @@ for i in range(3, 7):
     print(i)
 
 #Iterable, iterator
+#for in loop with early end using break
+txt = 'hello world'
+for c in txt:
+   if c == ' ':
+      break
+   print(c)
+
+#for in loop skipping parts using continue
+txt = 'hello world'
+for c in txt:
+    if c == ' ':
+       continue
+    print(c)
+    
+ 
