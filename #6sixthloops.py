@@ -52,6 +52,16 @@ while total >= 0:
  print(total)
  total += random.randrange(20)
  print("done")'''
+ #Use Ctrl-C to stop it
+
+ #While with complex expression
+import random
+total = 0
+while (total < 10000000) and (total % 17 != 1) and (total ** 2 % 23 != 7):
+   print(total)
+   total += random.randrange(20)
+print("done")
+
 
 
 
