@@ -88,6 +88,18 @@ while True:
         break
 print("done")
 
+#Duplicate input call
+'''id_str = input("Type in your ID: ")
+while len(id_str) != 9:
+ id_str = input("Type in your ID:")
+ print("Your ID is " + id_str)'''
+ 
+#Eliminate duplicate input call
+'''while True:
+   id_str = input("Type in your ID: ")
+   if len(id_str) == 9:
+        break
+        print("Your ID is " + id_str)'''''
 
 
 
