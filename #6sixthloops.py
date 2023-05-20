@@ -101,7 +101,13 @@ while len(id_str) != 9:
         break
         print("Your ID is " + id_str)'''''
 
-
+#do while loop
+while True:
+   answer = input("What is the meaning of life? ")
+   if answer == '42':
+        print("Yeeah, that's it!")
+        break
+print("done")
 
 
     
