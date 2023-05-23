@@ -20,6 +20,11 @@ for c in txt:
       break
    print(c)
 
+'''exit: will stop your program no matter where you call it.
+return: will return from a function (it will stop the specific function only)
+break :will stop the current “while” or “for” loop
+continue:  will stop the current iteration of the current “while” or “for” loop'''
+
 #for in loop skipping parts using continue
 txt = 'hello world'
 for c in txt:
@@ -134,6 +139,7 @@ while True:
       break
       print(loc)
     start = loc + 1'''
+
 #Count unique characters
 import random
 hidden = random.randrange(1, 201)
