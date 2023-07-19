@@ -53,5 +53,15 @@ name="hello loco"
 print("{:s}".format(name))
 print("{}".format(name))
 
+#Format characters and types
+x = 67
+print("{:b}".format(x))
+print("{:c}".format(x)) 
+print("{:d}".format(x))   
+print("{:o}".format(x)) 
+print("{:x}".format(x)) 
+print("{:X}".format(x)) 
+print("{:n}".format(x)) 
+print("{}".format(x))  
 
 
