@@ -64,4 +64,16 @@ print("{:X}".format(x))
 print("{:n}".format(x)) 
 print("{}".format(x))  
 
+#Format floating point number
+x = 412.345678901
+print("{:e}".format(x))   
+print("{:E}".format(x))  
+print("{:f}".format(x))   
+print("{:.2f}".format(x)) 
+print("{:F}".format(x))   
+print("{:g}".format(x))
+print("{:G}".format(x))  
+print("{:n}".format(x))   
+print("{}".format(x))    
+
 
