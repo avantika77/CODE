@@ -76,4 +76,13 @@ print("{:G}".format(x))
 print("{:n}".format(x))   
 print("{}".format(x))    
 
+#f-strings (formatted string literals)
+name = "Foo Bar"
+age = 42.12
+pi = 3.141592653589793
+r = 2
+print(f"The user {name} was born {age} years ago.")
+print(f"The user {name:10} was born {age} years ago.")
+print(f"The user {name:>10} was born {age} years ago.")
+print(f"The user {name:>10} was born {age:>10} years ago.")
 
