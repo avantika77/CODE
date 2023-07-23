@@ -90,3 +90,11 @@ print(f"PI is '{pi:.3f}'.")  # number of digits after decimal point
 print(f"Area is {pi * r ** 2}")
 print(f"Area is {pi * r ** 2:.3f}")
 
+#printf using old %-syntax
+v = 65
+print("<%s>" % v)     # <65>
+print("<%10s>" % v)   # <      65>
+print("<%-10s>" % v)  # <65      >
+print("<%c>" % v)     # <A>
+print("<%d>" % v)     # <65>
+print("<%0.5d>" % v)
