@@ -98,3 +98,11 @@ print("<%-10s>" % v)  # <65      >
 print("<%c>" % v)     # <A>
 print("<%d>" % v)     # <65>
 print("<%0.5d>" % v)
+
+#Format braces, bracket, and parentheses
+#To print { include {{.
+#To print } include }}.
+print("{{{}}}".format(77))   # {77}
+print("{{ {} }}".format(77))   # { 77 }
+print("[{}] ({})".format(77, 77))   # [77] (77)
+print("%{}".format(77))   # %77
