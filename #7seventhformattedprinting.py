@@ -106,3 +106,10 @@ print("{{{}}}".format(77))   # {77}
 print("{{ {} }}".format(77))   # { 77 }
 print("[{}] ({})".format(77, 77))   # [77] (77)
 print("%{}".format(77))   # %77
+
+#raw f-strings
+name="boo"
+print(r"a\nb {name}")
+print(rf"a\nb {name}")
+print(fr"a\nb {name}")  # this is better (for vim)
+
