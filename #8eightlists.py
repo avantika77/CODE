@@ -9,3 +9,21 @@ Filenames
 Names of devices
 Objects describing attributes of a network device.
 Actions to do on your data.'''
+
+#Any layout
+'''Layout is flexible
+Trailing comma is optional. It does not disturb us. Nor Python.'''
+
+more_stuff = [
+  42,
+  3.14,
+  True,
+   None,
+   "boo",
+    ['another', 'list'],
+        {
+         'a': 'Dictionary',
+         'language' : 'Python',
+   },
+]
+print(more_stuff)
