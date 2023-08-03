@@ -25,5 +25,12 @@ more_stuff = [
          'a': 'Dictionary',
          'language' : 'Python',
    },
-]
 print(more_stuff)
+
+#Lists
+'''Access single element: [index]
+Access a sublist: [start:end]
+Creates a copy of that sublist'''
+
+
+
