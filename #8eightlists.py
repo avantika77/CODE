@@ -31,6 +31,13 @@ print(more_stuff)
 '''Access single element: [index]
 Access a sublist: [start:end]
 Creates a copy of that sublist'''
+planets = ['Mercury', 'Venus', 'Earth', 'Mars', 'Jupiter', 'Saturn']
+print(planets)   # ['Mercury', 'Venus', 'Earth', 'Mars', 'Jupiter', 'Saturn']
+print(len(planets))    # 6
+print(planets[0])         # Mercury
+print(type(planets[0]))   # <class 'str'>
+print(planets[3])         # Mars
+
 
 
 
