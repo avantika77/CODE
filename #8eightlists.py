@@ -55,6 +55,12 @@ print(letters[1::2])     # ['b', 'd', 'f', 'h', 'j']
 print(letters[2:8:2])    # ['c', 'e', 'g']
 print(letters[1:20:3])   # ['b', 'e', 'h']
 
+Change with steps
+numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+print(numbers)  # [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+numbers[1::2] = [0, 0, 0, 0, 0, 0]
+
+
 
 
 
