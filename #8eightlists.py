@@ -59,6 +59,13 @@ Change with steps
 numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
 print(numbers)  # [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
 numbers[1::2] = [0, 0, 0, 0, 0, 0]
+print(x)    #  ['qqrq', 'xyz', 'dod', 'jkl']
+x[1:3] = ['bla']
+print(x)    #  ['qqrq', 'bla', 'jkl']
+1:2] = ['elp', 'free']
+print(x)    # ['qqrq', 'elp', 'free', 'jkl']
+#x[1] = ['elp', 'free']
+#print(x)    # ['qqrq', ['elp', 'free'], 'jkl']
 
 
 
