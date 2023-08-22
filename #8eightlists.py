@@ -96,6 +96,11 @@ x[0] = 'qqrq'
 print(x)    # ['qqrq', 'bob', 'cat', 'drone']
 print(y)    # ['apple', 'bob', 'cat', 'drone']
 
+join
+fields = ['one', 'two and three', 'four', 'five']
+together = ':'.join(fields)
+print(together) # one:two and three:four:five
+mixed = ' -=<> '.join(fields)
 
 
 
