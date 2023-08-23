@@ -106,5 +106,9 @@ print(mixed) # one -=<> two and three -=<> four -=<> five
 another = ''.join(fields)
 print(another)  # onetwo and threefourfive
 
+join list of numbers
+a = ["x", "2", "y"]
+b = ["x", 2, "y"]
+
 
 
