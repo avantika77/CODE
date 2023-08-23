@@ -109,6 +109,7 @@ print(another)  # onetwo and threefourfive
 join list of numbers
 a = ["x", "2", "y"]
 b = ["x", 2, "y"]
-
+print(":".join(a))    # x:2:y
+# print ":".join(b)    # TypeError: sequence item 1: expected string, int found
 
 
