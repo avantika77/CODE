@@ -116,4 +116,8 @@ print(":".join( map(str, b) ))        # x:2:y
 # convert elements to string using list comprehension
 print(":".join( str(x) for x in b ))  # x:2:y
 
+#split
+->Special case: To split a string to its characters: Use the list() function.
+->Split using more than one splitter: use re.split
+
 
