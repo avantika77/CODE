@@ -128,4 +128,9 @@ print(names)   # ['foo', 'bar', 'baz']
 chars = list("abcd")
 print(chars)   # ['a', 'b', 'c', 'd']
 
+for loop on lists
+things = ['apple', 'banana', 'peach', 42]
+for var in things:
+print(var)
+
 
