@@ -147,4 +147,9 @@ print('found 42')
 else:
 print('NOT found 42')
 
+#Where is the element in the list
+words = ['cat', 'dog', 'snake', 'camel']
+print(words.index('snake'))
+print(words.index('python'))
+
 
