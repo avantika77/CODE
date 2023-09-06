@@ -152,4 +152,10 @@ words = ['cat', 'dog', 'snake', 'camel']
 print(words.index('snake'))
 print(words.index('python'))
 
+#Index improved
+words = ['cat', 'dog', 'snake', 'camel']
+name = 'snake'
+if name in words:
+print(words.index(name))
+name = 'python'
 
