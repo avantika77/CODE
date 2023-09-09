@@ -167,3 +167,6 @@ words.insert(2, 'zebra')
 print(words)  # ['apple', 'banana', 'zebra', 'cat']
 words.insert(0, 'dog')
 print(words)  # ['dog', 'apple', 'banana', 'zebra', 'cat']
+# Instead of this, use append (next slide)
+words.insert(len(words), 'olifant')
+print(words)  # ['dog', 'apple', 'banana', 'zebra', 'cat', 'olifant']
