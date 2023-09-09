@@ -160,4 +160,10 @@ print(words.index(name))
 name = 'python'
 if name in words:
 print(words.index(name))
-
+#[].insert
+words = ['apple', 'banana', 'cat']
+print(words)  # ['apple', 'banana', 'cat']
+words.insert(2, 'zebra')
+print(words)  # ['apple', 'banana', 'zebra', 'cat']
+words.insert(0, 'dog')
+print(words)  # ['dog', 'apple', 'banana', 'zebra', 'cat']
