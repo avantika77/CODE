@@ -177,4 +177,7 @@ print(names)  # ['Foo', 'Bar', 'Zorg', 'Bambi']
 names.append('Qux')
 print(names)  # ['Foo', 'Bar', 'Zorg', 'Bambi', 'Qux']
 
+#[].remove
+names = ['Joe', 'Kim', 'Jane', 'Bob', 'Kim']
+print(names)                # ['Joe', 'Kim', 'Jane', 'Bob', 'Kim']
 
