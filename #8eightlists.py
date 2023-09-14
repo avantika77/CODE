@@ -180,4 +180,5 @@ print(names)  # ['Foo', 'Bar', 'Zorg', 'Bambi', 'Qux']
 #[].remove
 names = ['Joe', 'Kim', 'Jane', 'Bob', 'Kim']
 print(names)                # ['Joe', 'Kim', 'Jane', 'Bob', 'Kim']
-
+print(names.remove('Kim'))  # None
+print(names)                # ['Joe', 'Jane', 'Bob', 'Kim']
