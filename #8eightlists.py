@@ -182,3 +182,4 @@ names = ['Joe', 'Kim', 'Jane', 'Bob', 'Kim']
 print(names)                # ['Joe', 'Kim', 'Jane', 'Bob', 'Kim']
 print(names.remove('Kim'))  # None
 print(names)                # ['Joe', 'Jane', 'Bob', 'Kim']
+
