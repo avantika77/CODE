@@ -190,4 +190,7 @@ print(names.remove('George'))
 # Traceback (most recent call last):
 #   File "examples/lists/remove.py", line 9, in <module>
 #     print(names.remove('George'))  # None
-# ValueError: list.remove(x): x not in list // "error will be like this"
+# ValueError: list.remove(x): x not in list // "error will be like this"'''
+
+#Remove element by index [].pop
+planets = ['Mercury', 'Venus', 'Earth', 'Mars', 'Jupiter']
