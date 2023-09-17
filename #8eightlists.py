@@ -194,3 +194,8 @@ print(names.remove('George'))
 
 #Remove element by index [].pop
 planets = ['Mercury', 'Venus', 'Earth', 'Mars', 'Jupiter']
+print(planets)          # ['Mercury', 'Venus', 'Earth', 'Mars', 'Jupiter']
+third = planets.pop(2)
+print(third)            # Earth
+print(planets)          # ['Mercury', 'Venus', 'Mars', 'Jupiter']
+
