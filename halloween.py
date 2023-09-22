@@ -57,4 +57,7 @@ Please enter a month: 10
 Please enter a day: 31
 avi, your birthday is special. It's on the same as Halloween!
 
-
+What is your name? : D
+Please enter a month: 13
+Please enter a day: 33
+Invalid data entered.
