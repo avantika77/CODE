@@ -201,5 +201,6 @@ print(planets)          # ['Mercury', 'Venus', 'Mars', 'Jupiter']
 last = planets.pop()
 print(last)             # Jupiter
 print(planets)          # ['Mercury', 'Venus', 'Mars']
+# planets.pop(4)          # IndexError: pop index out of range
 
 
