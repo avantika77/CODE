@@ -198,4 +198,8 @@ print(planets)          # ['Mercury', 'Venus', 'Earth', 'Mars', 'Jupiter']
 third = planets.pop(2)
 print(third)            # Earth
 print(planets)          # ['Mercury', 'Venus', 'Mars', 'Jupiter']
+last = planets.pop()
+print(last)             # Jupiter
+print(planets)          # ['Mercury', 'Venus', 'Mars']
+
 
