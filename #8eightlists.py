@@ -204,5 +204,6 @@ print(planets)          # ['Mercury', 'Venus', 'Mars']
 # planets.pop(4)          # IndexError: pop index out of range
 jupyter_landers = []
 # jupyter_landers.pop()   # IndexError: pop from empty list
+#Remove and return the last element of a list. Throws an exception if the list was empty.
 
 
