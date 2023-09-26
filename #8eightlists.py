@@ -205,5 +205,12 @@ print(planets)          # ['Mercury', 'Venus', 'Mars']
 jupyter_landers = []
 # jupyter_landers.pop()   # IndexError: pop from empty list
 #Remove and return the last element of a list. Throws an exception if the list was empty.
+Remove first element of list
+{To remove an element by its index, use the slice syntax:}-----------------------------
+names = ['foo', 'bar', 'baz', 'moo']
+first = names.pop(0) {index 0} 
+print(first)    # foo #output
+print(names)    # ['bar', 'baz', 'moo'] #output
+
 
 
