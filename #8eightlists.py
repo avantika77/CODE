@@ -211,6 +211,10 @@ names = ['foo', 'bar', 'baz', 'moo']
 first = names.pop(0) {index 0} 
 print(first)    # foo #output
 print(names)    # ['bar', 'baz', 'moo'] #output
-
+Remove several elements of list by index
+To remove an element by its index, use the slice syntax:
+names = ['foo', 'bar', 'baz', 'moo', 'qux']
+names[2:4] = []
+print(names)    # ['foo', 'bar', 'qux']
 
 
