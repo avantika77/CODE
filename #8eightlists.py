@@ -217,4 +217,14 @@ names = ['foo', 'bar', 'baz', 'moo', 'qux']
 names[2:4] = []
 print(names)    # ['foo', 'bar', 'qux']
 
+#Use list as a queue
+a_queue = []
+print(a_queue)
+a_queue.append('Moo')
+print(a_queue)
+a_queue.append('Bar')
+print(a_queue)
+first = a_queue.pop(0)
+print(first)
+print(a_queue)
 
