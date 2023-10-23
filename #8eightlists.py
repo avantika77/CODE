@@ -232,3 +232,6 @@ Queue using deque from collections
 from collections import deque
 # items = deque([])
 items = deque(['foo', 'bar'])
+print(type(items))  # <type 'collections.deque'>
+print(items)        # deque(['foo', 'bar'])
+
