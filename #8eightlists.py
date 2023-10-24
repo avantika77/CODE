@@ -234,4 +234,6 @@ from collections import deque
 items = deque(['foo', 'bar'])
 print(type(items))  # <type 'collections.deque'>
 print(items)        # deque(['foo', 'bar'])
-
+items.append('zorg')
+print(items)        # deque(['foo', 'bar', 'zorg'])
+print(len(items))   # 3
