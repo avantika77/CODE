@@ -237,3 +237,12 @@ print(items)        # deque(['foo', 'bar'])
 items.append('zorg')
 print(items)        # deque(['foo', 'bar', 'zorg'])
 print(len(items))   # 3
+if items:
+print("The queue has items")
+else:
+ prit("The queue is empty")
+[.append
+.popleft
+len() number of elements
+if q: to see if it has elements or if it is empty
+dequeue]
