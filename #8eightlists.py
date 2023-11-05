@@ -246,3 +246,9 @@ else:
 len() number of elements
 if q: to see if it has elements or if it is empty
 dequeue]
+Fixed size queue
+ 1 from collections import deque
+ 2 
+ 3 queue = deque([], maxlen = 3)
+ 4 print(len(queue))     # 0
+ 5 print(queue.maxlen)   # 3
