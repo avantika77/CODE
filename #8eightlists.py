@@ -252,3 +252,8 @@ Fixed size queue
  3 queue = deque([], maxlen = 3)
  4 print(len(queue))     # 0
  5 print(queue.maxlen)   # 3
+queue.append("Foo")
+ 8 queue.append("Bar")
+ 9 queue.append("Baz")
+10 print(queue)          # deque(['Foo', 'Bar', 'Baz'], maxlen=3)
+11 
